@@ -1,0 +1,402 @@
+<parameters>
+  <query>
+    <number>0001</number>
+    <text>#weight( 0.8 #combine( ascii code ) 0.1 #combine( #1( ascii code ) ) 0.1 #combine( #uw8( ascii code ) ) )</text>
+  </query>
+  <query>
+    <number>0002</number>
+    <text>#combine( cad )</text>
+  </query>
+  <query>
+    <number>0003</number>
+    <text>#combine( fifa )</text>
+  </query>
+  <query>
+    <number>0004</number>
+    <text>#combine( nike )</text>
+  </query>
+  <query>
+    <number>0005</number>
+    <text>#weight( 0.8 #combine( vmware virtual machine ) 0.1 #combine( #1( virtual machine )  #1( vmware virtual )  #1( vmware virtual machine ) ) 0.1 #combine( #uw8( virtual machine )  #uw8( vmware machine )  #uw8( vmware virtual )  #uw12( vmware virtual machine ) ) )</text>
+  </query>
+  <query>
+    <number>0006</number>
+    <text>#combine( calendar )</text>
+  </query>
+  <query>
+    <number>0007</number>
+    <text>#weight( 0.8 #combine( samsung official site ) 0.1 #combine( #1( official site )  #1( samsung official )  #1( samsung official site ) ) 0.1 #combine( #uw8( official site )  #uw8( samsung site )  #uw8( samsung official )  #uw12( samsung official site ) ) )</text>
+  </query>
+  <query>
+    <number>0008</number>
+    <text>#weight( 0.8 #combine( world table tennis championships ) 0.1 #combine( #1( tennis championships )  #1( table tennis )  #1( table tennis championships )  #1( world table )  #1( world table tennis )  #1( world table tennis championships ) ) 0.1 #combine( #uw8( tennis championships )  #uw8( table championships )  #uw8( table tennis )  #uw12( table tennis championships )  #uw8( world championships )  #uw8( world tennis )  #uw12( world tennis championships )  #uw8( world table )  #uw12( world table championships )  #uw12( world table tennis )  #uw16( world table tennis championships ) ) )</text>
+  </query>
+  <query>
+    <number>0009</number>
+    <text>#weight( 0.8 #combine( letter format ) 0.1 #combine( #1( letter format ) ) 0.1 #combine( #uw8( letter format ) ) )</text>
+  </query>
+  <query>
+    <number>0010</number>
+    <text>#weight( 0.8 #combine( jurassic world ) 0.1 #combine( #1( jurassic world ) ) 0.1 #combine( #uw8( jurassic world ) ) )</text>
+  </query>
+  <query>
+    <number>0011</number>
+    <text>#weight( 0.8 #combine( credit card application ) 0.1 #combine( #1( card application )  #1( credit card )  #1( credit card application ) ) 0.1 #combine( #uw8( card application )  #uw8( credit application )  #uw8( credit card )  #uw12( credit card application ) ) )</text>
+  </query>
+  <query>
+    <number>0012</number>
+    <text>#weight( 0.8 #combine( child stick figures ) 0.1 #combine( #1( stick figures )  #1( child stick )  #1( child stick figures ) ) 0.1 #combine( #uw8( stick figures )  #uw8( child figures )  #uw8( child stick )  #uw12( child stick figures ) ) )</text>
+  </query>
+  <query>
+    <number>0013</number>
+    <text>#weight( 0.8 #combine( periodic table ) 0.1 #combine( #1( periodic table ) ) 0.1 #combine( #uw8( periodic table ) ) )</text>
+  </query>
+  <query>
+    <number>0014</number>
+    <text>#weight( 0.8 #combine( equation edior ) 0.1 #combine( #1( equation edior ) ) 0.1 #combine( #uw8( equation edior ) ) )</text>
+  </query>
+  <query>
+    <number>0015</number>
+    <text>#weight( 0.8 #combine( agricultural machinery ) 0.1 #combine( #1( agricultural machinery ) ) 0.1 #combine( #uw8( agricultural machinery ) ) )</text>
+  </query>
+  <query>
+    <number>0016</number>
+    <text>#weight( 0.8 #combine( migrate abroad ) 0.1 #combine( #1( migrate abroad ) ) 0.1 #combine( #uw8( migrate abroad ) ) )</text>
+  </query>
+  <query>
+    <number>0017</number>
+    <text>#weight( 0.8 #combine( gif collection ) 0.1 #combine( #1( gif collection ) ) 0.1 #combine( #uw8( gif collection ) ) )</text>
+  </query>
+  <query>
+    <number>0018</number>
+    <text>#weight( 0.8 #combine( astrological sign ) 0.1 #combine( #1( astrological sign ) ) 0.1 #combine( #uw8( astrological sign ) ) )</text>
+  </query>
+  <query>
+    <number>0019</number>
+    <text>#weight( 0.8 #combine( house of flying daggers ) 0.1 #combine( #1( flying daggers )  #1( of flying )  #1( of flying daggers )  #1( house of )  #1( house of flying )  #1( house of flying daggers ) ) 0.1 #combine( #uw8( flying daggers )  #uw8( of daggers )  #uw8( of flying )  #uw12( of flying daggers )  #uw8( house daggers )  #uw8( house flying )  #uw12( house flying daggers )  #uw8( house of )  #uw12( house of daggers )  #uw12( house of flying )  #uw16( house of flying daggers ) ) )</text>
+  </query>
+  <query>
+    <number>0020</number>
+    <text>#weight( 0.8 #combine( donald duck ) 0.1 #combine( #1( donald duck ) ) 0.1 #combine( #uw8( donald duck ) ) )</text>
+  </query>
+  <query>
+    <number>0021</number>
+    <text>#weight( 0.8 #combine( convict conditioning ) 0.1 #combine( #1( convict conditioning ) ) 0.1 #combine( #uw8( convict conditioning ) ) )</text>
+  </query>
+  <query>
+    <number>0022</number>
+    <text>#weight( 0.8 #combine( sichuan university ) 0.1 #combine( #1( sichuan university ) ) 0.1 #combine( #uw8( sichuan university ) ) )</text>
+  </query>
+  <query>
+    <number>0023</number>
+    <text>#weight( 0.8 #combine( battle city ) 0.1 #combine( #1( battle city ) ) 0.1 #combine( #uw8( battle city ) ) )</text>
+  </query>
+  <query>
+    <number>0024</number>
+    <text>#combine( domino )</text>
+  </query>
+  <query>
+    <number>0025</number>
+    <text>#weight( 0.8 #combine( shaolin monastery ) 0.1 #combine( #1( shaolin monastery ) ) 0.1 #combine( #uw8( shaolin monastery ) ) )</text>
+  </query>
+  <query>
+    <number>0026</number>
+    <text>#combine( eugene )</text>
+  </query>
+  <query>
+    <number>0027</number>
+    <text>#weight( 0.8 #combine( introduction of work report ) 0.1 #combine( #1( work report )  #1( of work )  #1( of work report )  #1( introduction of )  #1( introduction of work )  #1( introduction of work report ) ) 0.1 #combine( #uw8( work report )  #uw8( of report )  #uw8( of work )  #uw12( of work report )  #uw8( introduction report )  #uw8( introduction work )  #uw12( introduction work report )  #uw8( introduction of )  #uw12( introduction of report )  #uw12( introduction of work )  #uw16( introduction of work report ) ) )</text>
+  </query>
+  <query>
+    <number>0028</number>
+    <text>#weight( 0.8 #combine( typing practice ) 0.1 #combine( #1( typing practice ) ) 0.1 #combine( #uw8( typing practice ) ) )</text>
+  </query>
+  <query>
+    <number>0029</number>
+    <text>#weight( 0.8 #combine( traffic violation ) 0.1 #combine( #1( traffic violation ) ) 0.1 #combine( #uw8( traffic violation ) ) )</text>
+  </query>
+  <query>
+    <number>0030</number>
+    <text>#combine( robot )</text>
+  </query>
+  <query>
+    <number>0031</number>
+    <text>#combine( cherry )</text>
+  </query>
+  <query>
+    <number>0032</number>
+    <text>#weight( 0.8 #combine( chibi maruko-chan ) 0.1 #combine( #1( chibi maruko-chan ) ) 0.1 #combine( #uw8( chibi maruko-chan ) ) )</text>
+  </query>
+  <query>
+    <number>0033</number>
+    <text>#weight( 0.8 #combine( uefa champions league final ) 0.1 #combine( #1( league final )  #1( champions league )  #1( champions league final )  #1( uefa champions )  #1( uefa champions league )  #1( uefa champions league final ) ) 0.1 #combine( #uw8( league final )  #uw8( champions final )  #uw8( champions league )  #uw12( champions league final )  #uw8( uefa final )  #uw8( uefa league )  #uw12( uefa league final )  #uw8( uefa champions )  #uw12( uefa champions final )  #uw12( uefa champions league )  #uw16( uefa champions league final ) ) )</text>
+  </query>
+  <query>
+    <number>0034</number>
+    <text>#weight( 0.8 #combine( euro step ) 0.1 #combine( #1( euro step ) ) 0.1 #combine( #uw8( euro step ) ) )</text>
+  </query>
+  <query>
+    <number>0035</number>
+    <text>#weight( 0.8 #combine( magnesium hydroxide ) 0.1 #combine( #1( magnesium hydroxide ) ) 0.1 #combine( #uw8( magnesium hydroxide ) ) )</text>
+  </query>
+  <query>
+    <number>0036</number>
+    <text>#combine( neptune )</text>
+  </query>
+  <query>
+    <number>0037</number>
+    <text>#weight( 0.8 #combine( hkd rmb exchange rate ) 0.1 #combine( #1( exchange rate )  #1( rmb exchange )  #1( rmb exchange rate )  #1( hkd rmb )  #1( hkd rmb exchange )  #1( hkd rmb exchange rate ) ) 0.1 #combine( #uw8( exchange rate )  #uw8( rmb rate )  #uw8( rmb exchange )  #uw12( rmb exchange rate )  #uw8( hkd rate )  #uw8( hkd exchange )  #uw12( hkd exchange rate )  #uw8( hkd rmb )  #uw12( hkd rmb rate )  #uw12( hkd rmb exchange )  #uw16( hkd rmb exchange rate ) ) )</text>
+  </query>
+  <query>
+    <number>0038</number>
+    <text>#weight( 0.8 #combine( movie ranking ) 0.1 #combine( #1( movie ranking ) ) 0.1 #combine( #uw8( movie ranking ) ) )</text>
+  </query>
+  <query>
+    <number>0039</number>
+    <text>#weight( 0.8 #combine( router login ) 0.1 #combine( #1( router login ) ) 0.1 #combine( #uw8( router login ) ) )</text>
+  </query>
+  <query>
+    <number>0040</number>
+    <text>#weight( 0.8 #combine( merge videos ) 0.1 #combine( #1( merge videos ) ) 0.1 #combine( #uw8( merge videos ) ) )</text>
+  </query>
+  <query>
+    <number>0041</number>
+    <text>#combine( autumn )</text>
+  </query>
+  <query>
+    <number>0042</number>
+    <text>#combine( alpaca )</text>
+  </query>
+  <query>
+    <number>0043</number>
+    <text>#combine( petal )</text>
+  </query>
+  <query>
+    <number>0044</number>
+    <text>#weight( 0.8 #combine( english quotes ) 0.1 #combine( #1( english quotes ) ) 0.1 #combine( #uw8( english quotes ) ) )</text>
+  </query>
+  <query>
+    <number>0045</number>
+    <text>#weight( 0.8 #combine( commendatory term ) 0.1 #combine( #1( commendatory term ) ) 0.1 #combine( #uw8( commendatory term ) ) )</text>
+  </query>
+  <query>
+    <number>0046</number>
+    <text>#weight( 0.8 #combine( musical note ) 0.1 #combine( #1( musical note ) ) 0.1 #combine( #uw8( musical note ) ) )</text>
+  </query>
+  <query>
+    <number>0047</number>
+    <text>#weight( 0.8 #combine( rubik cube solution steps ) 0.1 #combine( #1( solution steps )  #1( cube solution )  #1( cube solution steps )  #1( rubik cube )  #1( rubik cube solution )  #1( rubik cube solution steps ) ) 0.1 #combine( #uw8( solution steps )  #uw8( cube steps )  #uw8( cube solution )  #uw12( cube solution steps )  #uw8( rubik steps )  #uw8( rubik solution )  #uw12( rubik solution steps )  #uw8( rubik cube )  #uw12( rubik cube steps )  #uw12( rubik cube solution )  #uw16( rubik cube solution steps ) ) )</text>
+  </query>
+  <query>
+    <number>0048</number>
+    <text>#weight( 0.8 #combine( melbourne university world ranking ) 0.1 #combine( #1( world ranking )  #1( university world )  #1( university world ranking )  #1( melbourne university )  #1( melbourne university world )  #1( melbourne university world ranking ) ) 0.1 #combine( #uw8( world ranking )  #uw8( university ranking )  #uw8( university world )  #uw12( university world ranking )  #uw8( melbourne ranking )  #uw8( melbourne world )  #uw12( melbourne world ranking )  #uw8( melbourne university )  #uw12( melbourne university ranking )  #uw12( melbourne university world )  #uw16( melbourne university world ranking ) ) )</text>
+  </query>
+  <query>
+    <number>0049</number>
+    <text>#weight( 0.8 #combine( yahoo finance ) 0.1 #combine( #1( yahoo finance ) ) 0.1 #combine( #uw8( yahoo finance ) ) )</text>
+  </query>
+  <query>
+    <number>0050</number>
+    <text>#weight( 0.8 #combine( dow jones ) 0.1 #combine( #1( dow jones ) ) 0.1 #combine( #uw8( dow jones ) ) )</text>
+  </query>
+  <query>
+    <number>0051</number>
+    <text>#combine( volkswagen )</text>
+  </query>
+  <query>
+    <number>0052</number>
+    <text>#weight( 0.8 #combine( 1968 olympic coin value ) 0.1 #combine( #1( coin value )  #1( olympic coin )  #1( olympic coin value )  #1( 1968 olympic )  #1( 1968 olympic coin )  #1( 1968 olympic coin value ) ) 0.1 #combine( #uw8( coin value )  #uw8( olympic value )  #uw8( olympic coin )  #uw12( olympic coin value )  #uw8( 1968 value )  #uw8( 1968 coin )  #uw12( 1968 coin value )  #uw8( 1968 olympic )  #uw12( 1968 olympic value )  #uw12( 1968 olympic coin )  #uw16( 1968 olympic coin value ) ) )</text>
+  </query>
+  <query>
+    <number>0053</number>
+    <text>#weight( 0.8 #combine( absolute neutrophils ) 0.1 #combine( #1( absolute neutrophils ) ) 0.1 #combine( #uw8( absolute neutrophils ) ) )</text>
+  </query>
+  <query>
+    <number>0054</number>
+    <text>#weight( 0.8 #combine( anime pillow ) 0.1 #combine( #1( anime pillow ) ) 0.1 #combine( #uw8( anime pillow ) ) )</text>
+  </query>
+  <query>
+    <number>0055</number>
+    <text>#weight( 0.8 #combine( annual salary requirement ) 0.1 #combine( #1( salary requirement )  #1( annual salary )  #1( annual salary requirement ) ) 0.1 #combine( #uw8( salary requirement )  #uw8( annual requirement )  #uw8( annual salary )  #uw12( annual salary requirement ) ) )</text>
+  </query>
+  <query>
+    <number>0056</number>
+    <text>#weight( 0.8 #combine( apologetic songs ) 0.1 #combine( #1( apologetic songs ) ) 0.1 #combine( #uw8( apologetic songs ) ) )</text>
+  </query>
+  <query>
+    <number>0057</number>
+    <text>#weight( 0.8 #combine( axle ratio ) 0.1 #combine( #1( axle ratio ) ) 0.1 #combine( #uw8( axle ratio ) ) )</text>
+  </query>
+  <query>
+    <number>0058</number>
+    <text>#weight( 0.8 #combine( best office software ) 0.1 #combine( #1( office software )  #1( best office )  #1( best office software ) ) 0.1 #combine( #uw8( office software )  #uw8( best software )  #uw8( best office )  #uw12( best office software ) ) )</text>
+  </query>
+  <query>
+    <number>0059</number>
+    <text>#weight( 0.8 #combine( bios setup ) 0.1 #combine( #1( bios setup ) ) 0.1 #combine( #uw8( bios setup ) ) )</text>
+  </query>
+  <query>
+    <number>0060</number>
+    <text>#weight( 0.8 #combine( blueberry compote ) 0.1 #combine( #1( blueberry compote ) ) 0.1 #combine( #uw8( blueberry compote ) ) )</text>
+  </query>
+  <query>
+    <number>0061</number>
+    <text>#weight( 0.8 #combine( boeing history ) 0.1 #combine( #1( boeing history ) ) 0.1 #combine( #uw8( boeing history ) ) )</text>
+  </query>
+  <query>
+    <number>0062</number>
+    <text>#weight( 0.8 #combine( brady motion ) 0.1 #combine( #1( brady motion ) ) 0.1 #combine( #uw8( brady motion ) ) )</text>
+  </query>
+  <query>
+    <number>0063</number>
+    <text>#weight( 0.8 #combine( candle in window meaning ) 0.1 #combine( #1( window meaning )  #1( in window )  #1( in window meaning )  #1( candle in )  #1( candle in window )  #1( candle in window meaning ) ) 0.1 #combine( #uw8( window meaning )  #uw8( in meaning )  #uw8( in window )  #uw12( in window meaning )  #uw8( candle meaning )  #uw8( candle window )  #uw12( candle window meaning )  #uw8( candle in )  #uw12( candle in meaning )  #uw12( candle in window )  #uw16( candle in window meaning ) ) )</text>
+  </query>
+  <query>
+    <number>0064</number>
+    <text>#weight( 0.8 #combine( case compound ) 0.1 #combine( #1( case compound ) ) 0.1 #combine( #uw8( case compound ) ) )</text>
+  </query>
+  <query>
+    <number>0065</number>
+    <text>#weight( 0.8 #combine( cheap root canals ) 0.1 #combine( #1( root canals )  #1( cheap root )  #1( cheap root canals ) ) 0.1 #combine( #uw8( root canals )  #uw8( cheap canals )  #uw8( cheap root )  #uw12( cheap root canals ) ) )</text>
+  </query>
+  <query>
+    <number>0066</number>
+    <text>#weight( 0.8 #combine( create website ) 0.1 #combine( #1( create website ) ) 0.1 #combine( #uw8( create website ) ) )</text>
+  </query>
+  <query>
+    <number>0067</number>
+    <text>#weight( 0.8 #combine( recital themes ) 0.1 #combine( #1( recital themes ) ) 0.1 #combine( #uw8( recital themes ) ) )</text>
+  </query>
+  <query>
+    <number>0068</number>
+    <text>#weight( 0.8 #combine( dell stock ) 0.1 #combine( #1( dell stock ) ) 0.1 #combine( #uw8( dell stock ) ) )</text>
+  </query>
+  <query>
+    <number>0069</number>
+    <text>#combine( diwali )</text>
+  </query>
+  <query>
+    <number>0070</number>
+    <text>#weight( 0.8 #combine( dna strand ) 0.1 #combine( #1( dna strand ) ) 0.1 #combine( #uw8( dna strand ) ) )</text>
+  </query>
+  <query>
+    <number>0071</number>
+    <text>#weight( 0.8 #combine( dog food for allergies ) 0.1 #combine( #1( for allergies )  #1( food for )  #1( food for allergies )  #1( dog food )  #1( dog food for )  #1( dog food for allergies ) ) 0.1 #combine( #uw8( for allergies )  #uw8( food allergies )  #uw8( food for )  #uw12( food for allergies )  #uw8( dog allergies )  #uw8( dog for )  #uw12( dog for allergies )  #uw8( dog food )  #uw12( dog food allergies )  #uw12( dog food for )  #uw16( dog food for allergies ) ) )</text>
+  </query>
+  <query>
+    <number>0072</number>
+    <text>#weight( 0.8 #combine( driving school ) 0.1 #combine( #1( driving school ) ) 0.1 #combine( #uw8( driving school ) ) )</text>
+  </query>
+  <query>
+    <number>0073</number>
+    <text>#combine( drum )</text>
+  </query>
+  <query>
+    <number>0074</number>
+    <text>#weight( 0.8 #combine( earnings calendar ) 0.1 #combine( #1( earnings calendar ) ) 0.1 #combine( #uw8( earnings calendar ) ) )</text>
+  </query>
+  <query>
+    <number>0075</number>
+    <text>#weight( 0.8 #combine( famous black leaders ) 0.1 #combine( #1( black leaders )  #1( famous black )  #1( famous black leaders ) ) 0.1 #combine( #uw8( black leaders )  #uw8( famous leaders )  #uw8( famous black )  #uw12( famous black leaders ) ) )</text>
+  </query>
+  <query>
+    <number>0076</number>
+    <text>#weight( 0.8 #combine( financial engines ) 0.1 #combine( #1( financial engines ) ) 0.1 #combine( #uw8( financial engines ) ) )</text>
+  </query>
+  <query>
+    <number>0077</number>
+    <text>#weight( 0.8 #combine( find part time job ) 0.1 #combine( #1( time job )  #1( part time )  #1( part time job )  #1( find part )  #1( find part time )  #1( find part time job ) ) 0.1 #combine( #uw8( time job )  #uw8( part job )  #uw8( part time )  #uw12( part time job )  #uw8( find job )  #uw8( find time )  #uw12( find time job )  #uw8( find part )  #uw12( find part job )  #uw12( find part time )  #uw16( find part time job ) ) )</text>
+  </query>
+  <query>
+    <number>0078</number>
+    <text>#weight( 0.8 #combine( formal fallacy ) 0.1 #combine( #1( formal fallacy ) ) 0.1 #combine( #uw8( formal fallacy ) ) )</text>
+  </query>
+  <query>
+    <number>0079</number>
+    <text>#combine( grasslands )</text>
+  </query>
+  <query>
+    <number>0080</number>
+    <text>#weight( 0.8 #combine( hp printer offline ) 0.1 #combine( #1( printer offline )  #1( hp printer )  #1( hp printer offline ) ) 0.1 #combine( #uw8( printer offline )  #uw8( hp offline )  #uw8( hp printer )  #uw12( hp printer offline ) ) )</text>
+  </query>
+  <query>
+    <number>0081</number>
+    <text>#weight( 0.8 #combine( ibm quote ) 0.1 #combine( #1( ibm quote ) ) 0.1 #combine( #uw8( ibm quote ) ) )</text>
+  </query>
+  <query>
+    <number>0082</number>
+    <text>#weight( 0.8 #combine( itunes error ) 0.1 #combine( #1( itunes error ) ) 0.1 #combine( #uw8( itunes error ) ) )</text>
+  </query>
+  <query>
+    <number>0083</number>
+    <text>#weight( 0.8 #combine( jetstar airlines hong kong ) 0.1 #combine( #1( hong kong )  #1( airlines hong )  #1( airlines hong kong )  #1( jetstar airlines )  #1( jetstar airlines hong )  #1( jetstar airlines hong kong ) ) 0.1 #combine( #uw8( hong kong )  #uw8( airlines kong )  #uw8( airlines hong )  #uw12( airlines hong kong )  #uw8( jetstar kong )  #uw8( jetstar hong )  #uw12( jetstar hong kong )  #uw8( jetstar airlines )  #uw12( jetstar airlines kong )  #uw12( jetstar airlines hong )  #uw16( jetstar airlines hong kong ) ) )</text>
+  </query>
+  <query>
+    <number>0084</number>
+    <text>#weight( 0.8 #combine( key man insurance ) 0.1 #combine( #1( man insurance )  #1( key man )  #1( key man insurance ) ) 0.1 #combine( #uw8( man insurance )  #uw8( key insurance )  #uw8( key man )  #uw12( key man insurance ) ) )</text>
+  </query>
+  <query>
+    <number>0085</number>
+    <text>#weight( 0.8 #combine( largest species of eel ) 0.1 #combine( #1( of eel )  #1( species of )  #1( species of eel )  #1( largest species )  #1( largest species of )  #1( largest species of eel ) ) 0.1 #combine( #uw8( of eel )  #uw8( species eel )  #uw8( species of )  #uw12( species of eel )  #uw8( largest eel )  #uw8( largest of )  #uw12( largest of eel )  #uw8( largest species )  #uw12( largest species eel )  #uw12( largest species of )  #uw16( largest species of eel ) ) )</text>
+  </query>
+  <query>
+    <number>0086</number>
+    <text>#weight( 0.8 #combine( low monocytes ) 0.1 #combine( #1( low monocytes ) ) 0.1 #combine( #uw8( low monocytes ) ) )</text>
+  </query>
+  <query>
+    <number>0087</number>
+    <text>#combine( manila )</text>
+  </query>
+  <query>
+    <number>0088</number>
+    <text>#weight( 0.8 #combine( mexico climate ) 0.1 #combine( #1( mexico climate ) ) 0.1 #combine( #uw8( mexico climate ) ) )</text>
+  </query>
+  <query>
+    <number>0089</number>
+    <text>#weight( 0.8 #combine( mineral element ) 0.1 #combine( #1( mineral element ) ) 0.1 #combine( #uw8( mineral element ) ) )</text>
+  </query>
+  <query>
+    <number>0090</number>
+    <text>#weight( 0.8 #combine( native american mexican ) 0.1 #combine( #1( american mexican )  #1( native american )  #1( native american mexican ) ) 0.1 #combine( #uw8( american mexican )  #uw8( native mexican )  #uw8( native american )  #uw12( native american mexican ) ) )</text>
+  </query>
+  <query>
+    <number>0091</number>
+    <text>#combine( openwrt )</text>
+  </query>
+  <query>
+    <number>0092</number>
+    <text>#combine( pandora )</text>
+  </query>
+  <query>
+    <number>0093</number>
+    <text>#weight( 0.8 #combine( protecting embankment ) 0.1 #combine( #1( protecting embankment ) ) 0.1 #combine( #uw8( protecting embankment ) ) )</text>
+  </query>
+  <query>
+    <number>0094</number>
+    <text>#weight( 0.8 #combine( samosa recipes ) 0.1 #combine( #1( samosa recipes ) ) 0.1 #combine( #uw8( samosa recipes ) ) )</text>
+  </query>
+  <query>
+    <number>0095</number>
+    <text>#weight( 0.8 #combine( soda water ) 0.1 #combine( #1( soda water ) ) 0.1 #combine( #uw8( soda water ) ) )</text>
+  </query>
+  <query>
+    <number>0096</number>
+    <text>#weight( 0.8 #combine( star wars movies ) 0.1 #combine( #1( wars movies )  #1( star wars )  #1( star wars movies ) ) 0.1 #combine( #uw8( wars movies )  #uw8( star movies )  #uw8( star wars )  #uw12( star wars movies ) ) )</text>
+  </query>
+  <query>
+    <number>0097</number>
+    <text>#weight( 0.8 #combine( stomach disorder ) 0.1 #combine( #1( stomach disorder ) ) 0.1 #combine( #uw8( stomach disorder ) ) )</text>
+  </query>
+  <query>
+    <number>0098</number>
+    <text>#weight( 0.8 #combine( tiffany keys ) 0.1 #combine( #1( tiffany keys ) ) 0.1 #combine( #uw8( tiffany keys ) ) )</text>
+  </query>
+  <query>
+    <number>0099</number>
+    <text>#weight( 0.8 #combine( vegetable fermentation ) 0.1 #combine( #1( vegetable fermentation ) ) 0.1 #combine( #uw8( vegetable fermentation ) ) )</text>
+  </query>
+  <query>
+    <number>0100</number>
+    <text>#weight( 0.8 #combine( weight loss ) 0.1 #combine( #1( weight loss ) ) 0.1 #combine( #uw8( weight loss ) ) )</text>
+  </query>
+</parameters>

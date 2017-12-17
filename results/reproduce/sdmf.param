@@ -1,0 +1,402 @@
+<parameters>
+  <query>
+    <number>0001</number>
+    <text>#weight( 0.2 #combine( ascii.(title) code.(title) ) 0.05 #combine( ascii.(inlink) code.(inlink) ) 0.75 #combine( ascii.(mainbody) code.(mainbody) ) 0.1 #combine( #1( ascii.mainbody code.mainbody ) ) 0.2 #combine( #uw8( ascii.mainbody code.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0002</number>
+    <text>#weight( 0.2 #combine( cad.(title) ) 0.05 #combine( cad.(inlink) ) 0.75 #combine( cad.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0003</number>
+    <text>#weight( 0.2 #combine( fifa.(title) ) 0.05 #combine( fifa.(inlink) ) 0.75 #combine( fifa.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0004</number>
+    <text>#weight( 0.2 #combine( nike.(title) ) 0.05 #combine( nike.(inlink) ) 0.75 #combine( nike.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0005</number>
+    <text>#weight( 0.2 #combine( vmware.(title) virtual.(title) machine.(title) ) 0.05 #combine( vmware.(inlink) virtual.(inlink) machine.(inlink) ) 0.75 #combine( vmware.(mainbody) virtual.(mainbody) machine.(mainbody) ) 0.1 #combine( #1( vmware.mainbody virtual.mainbody ) #1( virtual.mainbody machine.mainbody ) ) 0.2 #combine( #uw8( vmware.mainbody virtual.mainbody ) #uw8( vmware.mainbody machine.mainbody ) #uw8( virtual.mainbody machine.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0006</number>
+    <text>#weight( 0.2 #combine( calendar.(title) ) 0.05 #combine( calendar.(inlink) ) 0.75 #combine( calendar.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0007</number>
+    <text>#weight( 0.2 #combine( samsung.(title) official.(title) site.(title) ) 0.05 #combine( samsung.(inlink) official.(inlink) site.(inlink) ) 0.75 #combine( samsung.(mainbody) official.(mainbody) site.(mainbody) ) 0.1 #combine( #1( samsung.mainbody official.mainbody ) #1( official.mainbody site.mainbody ) ) 0.2 #combine( #uw8( samsung.mainbody official.mainbody ) #uw8( samsung.mainbody site.mainbody ) #uw8( official.mainbody site.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0008</number>
+    <text>#weight( 0.2 #combine( world.(title) table.(title) tennis.(title) championships.(title) ) 0.05 #combine( world.(inlink) table.(inlink) tennis.(inlink) championships.(inlink) ) 0.75 #combine( world.(mainbody) table.(mainbody) tennis.(mainbody) championships.(mainbody) ) 0.1 #combine( #1( world.mainbody table.mainbody ) #1( table.mainbody tennis.mainbody ) #1( tennis.mainbody championships.mainbody ) ) 0.2 #combine( #uw8( world.mainbody table.mainbody ) #uw8( world.mainbody tennis.mainbody ) #uw8( world.mainbody championships.mainbody ) #uw8( table.mainbody tennis.mainbody ) #uw8( table.mainbody championships.mainbody ) #uw8( tennis.mainbody championships.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0009</number>
+    <text>#weight( 0.2 #combine( letter.(title) format.(title) ) 0.05 #combine( letter.(inlink) format.(inlink) ) 0.75 #combine( letter.(mainbody) format.(mainbody) ) 0.1 #combine( #1( letter.mainbody format.mainbody ) ) 0.2 #combine( #uw8( letter.mainbody format.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0010</number>
+    <text>#weight( 0.2 #combine( jurassic.(title) world.(title) ) 0.05 #combine( jurassic.(inlink) world.(inlink) ) 0.75 #combine( jurassic.(mainbody) world.(mainbody) ) 0.1 #combine( #1( jurassic.mainbody world.mainbody ) ) 0.2 #combine( #uw8( jurassic.mainbody world.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0011</number>
+    <text>#weight( 0.2 #combine( credit.(title) card.(title) application.(title) ) 0.05 #combine( credit.(inlink) card.(inlink) application.(inlink) ) 0.75 #combine( credit.(mainbody) card.(mainbody) application.(mainbody) ) 0.1 #combine( #1( credit.mainbody card.mainbody ) #1( card.mainbody application.mainbody ) ) 0.2 #combine( #uw8( credit.mainbody card.mainbody ) #uw8( credit.mainbody application.mainbody ) #uw8( card.mainbody application.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0012</number>
+    <text>#weight( 0.2 #combine( child.(title) stick.(title) figures.(title) ) 0.05 #combine( child.(inlink) stick.(inlink) figures.(inlink) ) 0.75 #combine( child.(mainbody) stick.(mainbody) figures.(mainbody) ) 0.1 #combine( #1( child.mainbody stick.mainbody ) #1( stick.mainbody figures.mainbody ) ) 0.2 #combine( #uw8( child.mainbody stick.mainbody ) #uw8( child.mainbody figures.mainbody ) #uw8( stick.mainbody figures.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0013</number>
+    <text>#weight( 0.2 #combine( periodic.(title) table.(title) ) 0.05 #combine( periodic.(inlink) table.(inlink) ) 0.75 #combine( periodic.(mainbody) table.(mainbody) ) 0.1 #combine( #1( periodic.mainbody table.mainbody ) ) 0.2 #combine( #uw8( periodic.mainbody table.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0014</number>
+    <text>#weight( 0.2 #combine( equation.(title) edior.(title) ) 0.05 #combine( equation.(inlink) edior.(inlink) ) 0.75 #combine( equation.(mainbody) edior.(mainbody) ) 0.1 #combine( #1( equation.mainbody edior.mainbody ) ) 0.2 #combine( #uw8( equation.mainbody edior.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0015</number>
+    <text>#weight( 0.2 #combine( agricultural.(title) machinery.(title) ) 0.05 #combine( agricultural.(inlink) machinery.(inlink) ) 0.75 #combine( agricultural.(mainbody) machinery.(mainbody) ) 0.1 #combine( #1( agricultural.mainbody machinery.mainbody ) ) 0.2 #combine( #uw8( agricultural.mainbody machinery.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0016</number>
+    <text>#weight( 0.2 #combine( migrate.(title) abroad.(title) ) 0.05 #combine( migrate.(inlink) abroad.(inlink) ) 0.75 #combine( migrate.(mainbody) abroad.(mainbody) ) 0.1 #combine( #1( migrate.mainbody abroad.mainbody ) ) 0.2 #combine( #uw8( migrate.mainbody abroad.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0017</number>
+    <text>#weight( 0.2 #combine( gif.(title) collection.(title) ) 0.05 #combine( gif.(inlink) collection.(inlink) ) 0.75 #combine( gif.(mainbody) collection.(mainbody) ) 0.1 #combine( #1( gif.mainbody collection.mainbody ) ) 0.2 #combine( #uw8( gif.mainbody collection.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0018</number>
+    <text>#weight( 0.2 #combine( astrological.(title) sign.(title) ) 0.05 #combine( astrological.(inlink) sign.(inlink) ) 0.75 #combine( astrological.(mainbody) sign.(mainbody) ) 0.1 #combine( #1( astrological.mainbody sign.mainbody ) ) 0.2 #combine( #uw8( astrological.mainbody sign.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0019</number>
+    <text>#weight( 0.2 #combine( house.(title) of.(title) flying.(title) daggers.(title) ) 0.05 #combine( house.(inlink) of.(inlink) flying.(inlink) daggers.(inlink) ) 0.75 #combine( house.(mainbody) of.(mainbody) flying.(mainbody) daggers.(mainbody) ) 0.1 #combine( #1( house.mainbody of.mainbody ) #1( of.mainbody flying.mainbody ) #1( flying.mainbody daggers.mainbody ) ) 0.2 #combine( #uw8( house.mainbody of.mainbody ) #uw8( house.mainbody flying.mainbody ) #uw8( house.mainbody daggers.mainbody ) #uw8( of.mainbody flying.mainbody ) #uw8( of.mainbody daggers.mainbody ) #uw8( flying.mainbody daggers.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0020</number>
+    <text>#weight( 0.2 #combine( donald.(title) duck.(title) ) 0.05 #combine( donald.(inlink) duck.(inlink) ) 0.75 #combine( donald.(mainbody) duck.(mainbody) ) 0.1 #combine( #1( donald.mainbody duck.mainbody ) ) 0.2 #combine( #uw8( donald.mainbody duck.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0021</number>
+    <text>#weight( 0.2 #combine( convict.(title) conditioning.(title) ) 0.05 #combine( convict.(inlink) conditioning.(inlink) ) 0.75 #combine( convict.(mainbody) conditioning.(mainbody) ) 0.1 #combine( #1( convict.mainbody conditioning.mainbody ) ) 0.2 #combine( #uw8( convict.mainbody conditioning.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0022</number>
+    <text>#weight( 0.2 #combine( sichuan.(title) university.(title) ) 0.05 #combine( sichuan.(inlink) university.(inlink) ) 0.75 #combine( sichuan.(mainbody) university.(mainbody) ) 0.1 #combine( #1( sichuan.mainbody university.mainbody ) ) 0.2 #combine( #uw8( sichuan.mainbody university.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0023</number>
+    <text>#weight( 0.2 #combine( battle.(title) city.(title) ) 0.05 #combine( battle.(inlink) city.(inlink) ) 0.75 #combine( battle.(mainbody) city.(mainbody) ) 0.1 #combine( #1( battle.mainbody city.mainbody ) ) 0.2 #combine( #uw8( battle.mainbody city.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0024</number>
+    <text>#weight( 0.2 #combine( domino.(title) ) 0.05 #combine( domino.(inlink) ) 0.75 #combine( domino.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0025</number>
+    <text>#weight( 0.2 #combine( shaolin.(title) monastery.(title) ) 0.05 #combine( shaolin.(inlink) monastery.(inlink) ) 0.75 #combine( shaolin.(mainbody) monastery.(mainbody) ) 0.1 #combine( #1( shaolin.mainbody monastery.mainbody ) ) 0.2 #combine( #uw8( shaolin.mainbody monastery.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0026</number>
+    <text>#weight( 0.2 #combine( eugene.(title) ) 0.05 #combine( eugene.(inlink) ) 0.75 #combine( eugene.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0027</number>
+    <text>#weight( 0.2 #combine( introduction.(title) of.(title) work.(title) report.(title) ) 0.05 #combine( introduction.(inlink) of.(inlink) work.(inlink) report.(inlink) ) 0.75 #combine( introduction.(mainbody) of.(mainbody) work.(mainbody) report.(mainbody) ) 0.1 #combine( #1( introduction.mainbody of.mainbody ) #1( of.mainbody work.mainbody ) #1( work.mainbody report.mainbody ) ) 0.2 #combine( #uw8( introduction.mainbody of.mainbody ) #uw8( introduction.mainbody work.mainbody ) #uw8( introduction.mainbody report.mainbody ) #uw8( of.mainbody work.mainbody ) #uw8( of.mainbody report.mainbody ) #uw8( work.mainbody report.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0028</number>
+    <text>#weight( 0.2 #combine( typing.(title) practice.(title) ) 0.05 #combine( typing.(inlink) practice.(inlink) ) 0.75 #combine( typing.(mainbody) practice.(mainbody) ) 0.1 #combine( #1( typing.mainbody practice.mainbody ) ) 0.2 #combine( #uw8( typing.mainbody practice.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0029</number>
+    <text>#weight( 0.2 #combine( traffic.(title) violation.(title) ) 0.05 #combine( traffic.(inlink) violation.(inlink) ) 0.75 #combine( traffic.(mainbody) violation.(mainbody) ) 0.1 #combine( #1( traffic.mainbody violation.mainbody ) ) 0.2 #combine( #uw8( traffic.mainbody violation.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0030</number>
+    <text>#weight( 0.2 #combine( robot.(title) ) 0.05 #combine( robot.(inlink) ) 0.75 #combine( robot.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0031</number>
+    <text>#weight( 0.2 #combine( cherry.(title) ) 0.05 #combine( cherry.(inlink) ) 0.75 #combine( cherry.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0032</number>
+    <text>#weight( 0.2 #combine( chibi.(title) maruko-chan.(title) ) 0.05 #combine( chibi.(inlink) maruko-chan.(inlink) ) 0.75 #combine( chibi.(mainbody) maruko-chan.(mainbody) ) 0.1 #combine( #1( chibi.mainbody maruko-chan.mainbody ) ) 0.2 #combine( #uw8( chibi.mainbody maruko-chan.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0033</number>
+    <text>#weight( 0.2 #combine( uefa.(title) champions.(title) league.(title) final.(title) ) 0.05 #combine( uefa.(inlink) champions.(inlink) league.(inlink) final.(inlink) ) 0.75 #combine( uefa.(mainbody) champions.(mainbody) league.(mainbody) final.(mainbody) ) 0.1 #combine( #1( uefa.mainbody champions.mainbody ) #1( champions.mainbody league.mainbody ) #1( league.mainbody final.mainbody ) ) 0.2 #combine( #uw8( uefa.mainbody champions.mainbody ) #uw8( uefa.mainbody league.mainbody ) #uw8( uefa.mainbody final.mainbody ) #uw8( champions.mainbody league.mainbody ) #uw8( champions.mainbody final.mainbody ) #uw8( league.mainbody final.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0034</number>
+    <text>#weight( 0.2 #combine( euro.(title) step.(title) ) 0.05 #combine( euro.(inlink) step.(inlink) ) 0.75 #combine( euro.(mainbody) step.(mainbody) ) 0.1 #combine( #1( euro.mainbody step.mainbody ) ) 0.2 #combine( #uw8( euro.mainbody step.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0035</number>
+    <text>#weight( 0.2 #combine( magnesium.(title) hydroxide.(title) ) 0.05 #combine( magnesium.(inlink) hydroxide.(inlink) ) 0.75 #combine( magnesium.(mainbody) hydroxide.(mainbody) ) 0.1 #combine( #1( magnesium.mainbody hydroxide.mainbody ) ) 0.2 #combine( #uw8( magnesium.mainbody hydroxide.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0036</number>
+    <text>#weight( 0.2 #combine( neptune.(title) ) 0.05 #combine( neptune.(inlink) ) 0.75 #combine( neptune.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0037</number>
+    <text>#weight( 0.2 #combine( hkd.(title) rmb.(title) exchange.(title) rate.(title) ) 0.05 #combine( hkd.(inlink) rmb.(inlink) exchange.(inlink) rate.(inlink) ) 0.75 #combine( hkd.(mainbody) rmb.(mainbody) exchange.(mainbody) rate.(mainbody) ) 0.1 #combine( #1( hkd.mainbody rmb.mainbody ) #1( rmb.mainbody exchange.mainbody ) #1( exchange.mainbody rate.mainbody ) ) 0.2 #combine( #uw8( hkd.mainbody rmb.mainbody ) #uw8( hkd.mainbody exchange.mainbody ) #uw8( hkd.mainbody rate.mainbody ) #uw8( rmb.mainbody exchange.mainbody ) #uw8( rmb.mainbody rate.mainbody ) #uw8( exchange.mainbody rate.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0038</number>
+    <text>#weight( 0.2 #combine( movie.(title) ranking.(title) ) 0.05 #combine( movie.(inlink) ranking.(inlink) ) 0.75 #combine( movie.(mainbody) ranking.(mainbody) ) 0.1 #combine( #1( movie.mainbody ranking.mainbody ) ) 0.2 #combine( #uw8( movie.mainbody ranking.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0039</number>
+    <text>#weight( 0.2 #combine( router.(title) login.(title) ) 0.05 #combine( router.(inlink) login.(inlink) ) 0.75 #combine( router.(mainbody) login.(mainbody) ) 0.1 #combine( #1( router.mainbody login.mainbody ) ) 0.2 #combine( #uw8( router.mainbody login.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0040</number>
+    <text>#weight( 0.2 #combine( merge.(title) videos.(title) ) 0.05 #combine( merge.(inlink) videos.(inlink) ) 0.75 #combine( merge.(mainbody) videos.(mainbody) ) 0.1 #combine( #1( merge.mainbody videos.mainbody ) ) 0.2 #combine( #uw8( merge.mainbody videos.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0041</number>
+    <text>#weight( 0.2 #combine( autumn.(title) ) 0.05 #combine( autumn.(inlink) ) 0.75 #combine( autumn.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0042</number>
+    <text>#weight( 0.2 #combine( alpaca.(title) ) 0.05 #combine( alpaca.(inlink) ) 0.75 #combine( alpaca.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0043</number>
+    <text>#weight( 0.2 #combine( petal.(title) ) 0.05 #combine( petal.(inlink) ) 0.75 #combine( petal.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0044</number>
+    <text>#weight( 0.2 #combine( english.(title) quotes.(title) ) 0.05 #combine( english.(inlink) quotes.(inlink) ) 0.75 #combine( english.(mainbody) quotes.(mainbody) ) 0.1 #combine( #1( english.mainbody quotes.mainbody ) ) 0.2 #combine( #uw8( english.mainbody quotes.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0045</number>
+    <text>#weight( 0.2 #combine( commendatory.(title) term.(title) ) 0.05 #combine( commendatory.(inlink) term.(inlink) ) 0.75 #combine( commendatory.(mainbody) term.(mainbody) ) 0.1 #combine( #1( commendatory.mainbody term.mainbody ) ) 0.2 #combine( #uw8( commendatory.mainbody term.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0046</number>
+    <text>#weight( 0.2 #combine( musical.(title) note.(title) ) 0.05 #combine( musical.(inlink) note.(inlink) ) 0.75 #combine( musical.(mainbody) note.(mainbody) ) 0.1 #combine( #1( musical.mainbody note.mainbody ) ) 0.2 #combine( #uw8( musical.mainbody note.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0047</number>
+    <text>#weight( 0.2 #combine( rubik.(title) cube.(title) solution.(title) steps.(title) ) 0.05 #combine( rubik.(inlink) cube.(inlink) solution.(inlink) steps.(inlink) ) 0.75 #combine( rubik.(mainbody) cube.(mainbody) solution.(mainbody) steps.(mainbody) ) 0.1 #combine( #1( rubik.mainbody cube.mainbody ) #1( cube.mainbody solution.mainbody ) #1( solution.mainbody steps.mainbody ) ) 0.2 #combine( #uw8( rubik.mainbody cube.mainbody ) #uw8( rubik.mainbody solution.mainbody ) #uw8( rubik.mainbody steps.mainbody ) #uw8( cube.mainbody solution.mainbody ) #uw8( cube.mainbody steps.mainbody ) #uw8( solution.mainbody steps.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0048</number>
+    <text>#weight( 0.2 #combine( melbourne.(title) university.(title) world.(title) ranking.(title) ) 0.05 #combine( melbourne.(inlink) university.(inlink) world.(inlink) ranking.(inlink) ) 0.75 #combine( melbourne.(mainbody) university.(mainbody) world.(mainbody) ranking.(mainbody) ) 0.1 #combine( #1( melbourne.mainbody university.mainbody ) #1( university.mainbody world.mainbody ) #1( world.mainbody ranking.mainbody ) ) 0.2 #combine( #uw8( melbourne.mainbody university.mainbody ) #uw8( melbourne.mainbody world.mainbody ) #uw8( melbourne.mainbody ranking.mainbody ) #uw8( university.mainbody world.mainbody ) #uw8( university.mainbody ranking.mainbody ) #uw8( world.mainbody ranking.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0049</number>
+    <text>#weight( 0.2 #combine( yahoo.(title) finance.(title) ) 0.05 #combine( yahoo.(inlink) finance.(inlink) ) 0.75 #combine( yahoo.(mainbody) finance.(mainbody) ) 0.1 #combine( #1( yahoo.mainbody finance.mainbody ) ) 0.2 #combine( #uw8( yahoo.mainbody finance.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0050</number>
+    <text>#weight( 0.2 #combine( dow.(title) jones.(title) ) 0.05 #combine( dow.(inlink) jones.(inlink) ) 0.75 #combine( dow.(mainbody) jones.(mainbody) ) 0.1 #combine( #1( dow.mainbody jones.mainbody ) ) 0.2 #combine( #uw8( dow.mainbody jones.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0051</number>
+    <text>#weight( 0.2 #combine( volkswagen.(title) ) 0.05 #combine( volkswagen.(inlink) ) 0.75 #combine( volkswagen.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0052</number>
+    <text>#weight( 0.2 #combine( 1968.(title) olympic.(title) coin.(title) value.(title) ) 0.05 #combine( 1968.(inlink) olympic.(inlink) coin.(inlink) value.(inlink) ) 0.75 #combine( 1968.(mainbody) olympic.(mainbody) coin.(mainbody) value.(mainbody) ) 0.1 #combine( #1( 1968.mainbody olympic.mainbody ) #1( olympic.mainbody coin.mainbody ) #1( coin.mainbody value.mainbody ) ) 0.2 #combine( #uw8( 1968.mainbody olympic.mainbody ) #uw8( 1968.mainbody coin.mainbody ) #uw8( 1968.mainbody value.mainbody ) #uw8( olympic.mainbody coin.mainbody ) #uw8( olympic.mainbody value.mainbody ) #uw8( coin.mainbody value.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0053</number>
+    <text>#weight( 0.2 #combine( absolute.(title) neutrophils.(title) ) 0.05 #combine( absolute.(inlink) neutrophils.(inlink) ) 0.75 #combine( absolute.(mainbody) neutrophils.(mainbody) ) 0.1 #combine( #1( absolute.mainbody neutrophils.mainbody ) ) 0.2 #combine( #uw8( absolute.mainbody neutrophils.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0054</number>
+    <text>#weight( 0.2 #combine( anime.(title) pillow.(title) ) 0.05 #combine( anime.(inlink) pillow.(inlink) ) 0.75 #combine( anime.(mainbody) pillow.(mainbody) ) 0.1 #combine( #1( anime.mainbody pillow.mainbody ) ) 0.2 #combine( #uw8( anime.mainbody pillow.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0055</number>
+    <text>#weight( 0.2 #combine( annual.(title) salary.(title) requirement.(title) ) 0.05 #combine( annual.(inlink) salary.(inlink) requirement.(inlink) ) 0.75 #combine( annual.(mainbody) salary.(mainbody) requirement.(mainbody) ) 0.1 #combine( #1( annual.mainbody salary.mainbody ) #1( salary.mainbody requirement.mainbody ) ) 0.2 #combine( #uw8( annual.mainbody salary.mainbody ) #uw8( annual.mainbody requirement.mainbody ) #uw8( salary.mainbody requirement.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0056</number>
+    <text>#weight( 0.2 #combine( apologetic.(title) songs.(title) ) 0.05 #combine( apologetic.(inlink) songs.(inlink) ) 0.75 #combine( apologetic.(mainbody) songs.(mainbody) ) 0.1 #combine( #1( apologetic.mainbody songs.mainbody ) ) 0.2 #combine( #uw8( apologetic.mainbody songs.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0057</number>
+    <text>#weight( 0.2 #combine( axle.(title) ratio.(title) ) 0.05 #combine( axle.(inlink) ratio.(inlink) ) 0.75 #combine( axle.(mainbody) ratio.(mainbody) ) 0.1 #combine( #1( axle.mainbody ratio.mainbody ) ) 0.2 #combine( #uw8( axle.mainbody ratio.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0058</number>
+    <text>#weight( 0.2 #combine( best.(title) office.(title) software.(title) ) 0.05 #combine( best.(inlink) office.(inlink) software.(inlink) ) 0.75 #combine( best.(mainbody) office.(mainbody) software.(mainbody) ) 0.1 #combine( #1( best.mainbody office.mainbody ) #1( office.mainbody software.mainbody ) ) 0.2 #combine( #uw8( best.mainbody office.mainbody ) #uw8( best.mainbody software.mainbody ) #uw8( office.mainbody software.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0059</number>
+    <text>#weight( 0.2 #combine( bios.(title) setup.(title) ) 0.05 #combine( bios.(inlink) setup.(inlink) ) 0.75 #combine( bios.(mainbody) setup.(mainbody) ) 0.1 #combine( #1( bios.mainbody setup.mainbody ) ) 0.2 #combine( #uw8( bios.mainbody setup.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0060</number>
+    <text>#weight( 0.2 #combine( blueberry.(title) compote.(title) ) 0.05 #combine( blueberry.(inlink) compote.(inlink) ) 0.75 #combine( blueberry.(mainbody) compote.(mainbody) ) 0.1 #combine( #1( blueberry.mainbody compote.mainbody ) ) 0.2 #combine( #uw8( blueberry.mainbody compote.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0061</number>
+    <text>#weight( 0.2 #combine( boeing.(title) history.(title) ) 0.05 #combine( boeing.(inlink) history.(inlink) ) 0.75 #combine( boeing.(mainbody) history.(mainbody) ) 0.1 #combine( #1( boeing.mainbody history.mainbody ) ) 0.2 #combine( #uw8( boeing.mainbody history.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0062</number>
+    <text>#weight( 0.2 #combine( brady.(title) motion.(title) ) 0.05 #combine( brady.(inlink) motion.(inlink) ) 0.75 #combine( brady.(mainbody) motion.(mainbody) ) 0.1 #combine( #1( brady.mainbody motion.mainbody ) ) 0.2 #combine( #uw8( brady.mainbody motion.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0063</number>
+    <text>#weight( 0.2 #combine( candle.(title) in.(title) window.(title) meaning.(title) ) 0.05 #combine( candle.(inlink) in.(inlink) window.(inlink) meaning.(inlink) ) 0.75 #combine( candle.(mainbody) in.(mainbody) window.(mainbody) meaning.(mainbody) ) 0.1 #combine( #1( candle.mainbody in.mainbody ) #1( in.mainbody window.mainbody ) #1( window.mainbody meaning.mainbody ) ) 0.2 #combine( #uw8( candle.mainbody in.mainbody ) #uw8( candle.mainbody window.mainbody ) #uw8( candle.mainbody meaning.mainbody ) #uw8( in.mainbody window.mainbody ) #uw8( in.mainbody meaning.mainbody ) #uw8( window.mainbody meaning.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0064</number>
+    <text>#weight( 0.2 #combine( case.(title) compound.(title) ) 0.05 #combine( case.(inlink) compound.(inlink) ) 0.75 #combine( case.(mainbody) compound.(mainbody) ) 0.1 #combine( #1( case.mainbody compound.mainbody ) ) 0.2 #combine( #uw8( case.mainbody compound.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0065</number>
+    <text>#weight( 0.2 #combine( cheap.(title) root.(title) canals.(title) ) 0.05 #combine( cheap.(inlink) root.(inlink) canals.(inlink) ) 0.75 #combine( cheap.(mainbody) root.(mainbody) canals.(mainbody) ) 0.1 #combine( #1( cheap.mainbody root.mainbody ) #1( root.mainbody canals.mainbody ) ) 0.2 #combine( #uw8( cheap.mainbody root.mainbody ) #uw8( cheap.mainbody canals.mainbody ) #uw8( root.mainbody canals.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0066</number>
+    <text>#weight( 0.2 #combine( create.(title) website.(title) ) 0.05 #combine( create.(inlink) website.(inlink) ) 0.75 #combine( create.(mainbody) website.(mainbody) ) 0.1 #combine( #1( create.mainbody website.mainbody ) ) 0.2 #combine( #uw8( create.mainbody website.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0067</number>
+    <text>#weight( 0.2 #combine( recital.(title) themes.(title) ) 0.05 #combine( recital.(inlink) themes.(inlink) ) 0.75 #combine( recital.(mainbody) themes.(mainbody) ) 0.1 #combine( #1( recital.mainbody themes.mainbody ) ) 0.2 #combine( #uw8( recital.mainbody themes.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0068</number>
+    <text>#weight( 0.2 #combine( dell.(title) stock.(title) ) 0.05 #combine( dell.(inlink) stock.(inlink) ) 0.75 #combine( dell.(mainbody) stock.(mainbody) ) 0.1 #combine( #1( dell.mainbody stock.mainbody ) ) 0.2 #combine( #uw8( dell.mainbody stock.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0069</number>
+    <text>#weight( 0.2 #combine( diwali.(title) ) 0.05 #combine( diwali.(inlink) ) 0.75 #combine( diwali.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0070</number>
+    <text>#weight( 0.2 #combine( dna.(title) strand.(title) ) 0.05 #combine( dna.(inlink) strand.(inlink) ) 0.75 #combine( dna.(mainbody) strand.(mainbody) ) 0.1 #combine( #1( dna.mainbody strand.mainbody ) ) 0.2 #combine( #uw8( dna.mainbody strand.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0071</number>
+    <text>#weight( 0.2 #combine( dog.(title) food.(title) for.(title) allergies.(title) ) 0.05 #combine( dog.(inlink) food.(inlink) for.(inlink) allergies.(inlink) ) 0.75 #combine( dog.(mainbody) food.(mainbody) for.(mainbody) allergies.(mainbody) ) 0.1 #combine( #1( dog.mainbody food.mainbody ) #1( food.mainbody for.mainbody ) #1( for.mainbody allergies.mainbody ) ) 0.2 #combine( #uw8( dog.mainbody food.mainbody ) #uw8( dog.mainbody for.mainbody ) #uw8( dog.mainbody allergies.mainbody ) #uw8( food.mainbody for.mainbody ) #uw8( food.mainbody allergies.mainbody ) #uw8( for.mainbody allergies.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0072</number>
+    <text>#weight( 0.2 #combine( driving.(title) school.(title) ) 0.05 #combine( driving.(inlink) school.(inlink) ) 0.75 #combine( driving.(mainbody) school.(mainbody) ) 0.1 #combine( #1( driving.mainbody school.mainbody ) ) 0.2 #combine( #uw8( driving.mainbody school.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0073</number>
+    <text>#weight( 0.2 #combine( drum.(title) ) 0.05 #combine( drum.(inlink) ) 0.75 #combine( drum.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0074</number>
+    <text>#weight( 0.2 #combine( earnings.(title) calendar.(title) ) 0.05 #combine( earnings.(inlink) calendar.(inlink) ) 0.75 #combine( earnings.(mainbody) calendar.(mainbody) ) 0.1 #combine( #1( earnings.mainbody calendar.mainbody ) ) 0.2 #combine( #uw8( earnings.mainbody calendar.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0075</number>
+    <text>#weight( 0.2 #combine( famous.(title) black.(title) leaders.(title) ) 0.05 #combine( famous.(inlink) black.(inlink) leaders.(inlink) ) 0.75 #combine( famous.(mainbody) black.(mainbody) leaders.(mainbody) ) 0.1 #combine( #1( famous.mainbody black.mainbody ) #1( black.mainbody leaders.mainbody ) ) 0.2 #combine( #uw8( famous.mainbody black.mainbody ) #uw8( famous.mainbody leaders.mainbody ) #uw8( black.mainbody leaders.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0076</number>
+    <text>#weight( 0.2 #combine( financial.(title) engines.(title) ) 0.05 #combine( financial.(inlink) engines.(inlink) ) 0.75 #combine( financial.(mainbody) engines.(mainbody) ) 0.1 #combine( #1( financial.mainbody engines.mainbody ) ) 0.2 #combine( #uw8( financial.mainbody engines.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0077</number>
+    <text>#weight( 0.2 #combine( find.(title) part.(title) time.(title) job.(title) ) 0.05 #combine( find.(inlink) part.(inlink) time.(inlink) job.(inlink) ) 0.75 #combine( find.(mainbody) part.(mainbody) time.(mainbody) job.(mainbody) ) 0.1 #combine( #1( find.mainbody part.mainbody ) #1( part.mainbody time.mainbody ) #1( time.mainbody job.mainbody ) ) 0.2 #combine( #uw8( find.mainbody part.mainbody ) #uw8( find.mainbody time.mainbody ) #uw8( find.mainbody job.mainbody ) #uw8( part.mainbody time.mainbody ) #uw8( part.mainbody job.mainbody ) #uw8( time.mainbody job.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0078</number>
+    <text>#weight( 0.2 #combine( formal.(title) fallacy.(title) ) 0.05 #combine( formal.(inlink) fallacy.(inlink) ) 0.75 #combine( formal.(mainbody) fallacy.(mainbody) ) 0.1 #combine( #1( formal.mainbody fallacy.mainbody ) ) 0.2 #combine( #uw8( formal.mainbody fallacy.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0079</number>
+    <text>#weight( 0.2 #combine( grasslands.(title) ) 0.05 #combine( grasslands.(inlink) ) 0.75 #combine( grasslands.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0080</number>
+    <text>#weight( 0.2 #combine( hp.(title) printer.(title) offline.(title) ) 0.05 #combine( hp.(inlink) printer.(inlink) offline.(inlink) ) 0.75 #combine( hp.(mainbody) printer.(mainbody) offline.(mainbody) ) 0.1 #combine( #1( hp.mainbody printer.mainbody ) #1( printer.mainbody offline.mainbody ) ) 0.2 #combine( #uw8( hp.mainbody printer.mainbody ) #uw8( hp.mainbody offline.mainbody ) #uw8( printer.mainbody offline.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0081</number>
+    <text>#weight( 0.2 #combine( ibm.(title) quote.(title) ) 0.05 #combine( ibm.(inlink) quote.(inlink) ) 0.75 #combine( ibm.(mainbody) quote.(mainbody) ) 0.1 #combine( #1( ibm.mainbody quote.mainbody ) ) 0.2 #combine( #uw8( ibm.mainbody quote.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0082</number>
+    <text>#weight( 0.2 #combine( itunes.(title) error.(title) ) 0.05 #combine( itunes.(inlink) error.(inlink) ) 0.75 #combine( itunes.(mainbody) error.(mainbody) ) 0.1 #combine( #1( itunes.mainbody error.mainbody ) ) 0.2 #combine( #uw8( itunes.mainbody error.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0083</number>
+    <text>#weight( 0.2 #combine( jetstar.(title) airlines.(title) hong.(title) kong.(title) ) 0.05 #combine( jetstar.(inlink) airlines.(inlink) hong.(inlink) kong.(inlink) ) 0.75 #combine( jetstar.(mainbody) airlines.(mainbody) hong.(mainbody) kong.(mainbody) ) 0.1 #combine( #1( jetstar.mainbody airlines.mainbody ) #1( airlines.mainbody hong.mainbody ) #1( hong.mainbody kong.mainbody ) ) 0.2 #combine( #uw8( jetstar.mainbody airlines.mainbody ) #uw8( jetstar.mainbody hong.mainbody ) #uw8( jetstar.mainbody kong.mainbody ) #uw8( airlines.mainbody hong.mainbody ) #uw8( airlines.mainbody kong.mainbody ) #uw8( hong.mainbody kong.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0084</number>
+    <text>#weight( 0.2 #combine( key.(title) man.(title) insurance.(title) ) 0.05 #combine( key.(inlink) man.(inlink) insurance.(inlink) ) 0.75 #combine( key.(mainbody) man.(mainbody) insurance.(mainbody) ) 0.1 #combine( #1( key.mainbody man.mainbody ) #1( man.mainbody insurance.mainbody ) ) 0.2 #combine( #uw8( key.mainbody man.mainbody ) #uw8( key.mainbody insurance.mainbody ) #uw8( man.mainbody insurance.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0085</number>
+    <text>#weight( 0.2 #combine( largest.(title) species.(title) of.(title) eel.(title) ) 0.05 #combine( largest.(inlink) species.(inlink) of.(inlink) eel.(inlink) ) 0.75 #combine( largest.(mainbody) species.(mainbody) of.(mainbody) eel.(mainbody) ) 0.1 #combine( #1( largest.mainbody species.mainbody ) #1( species.mainbody of.mainbody ) #1( of.mainbody eel.mainbody ) ) 0.2 #combine( #uw8( largest.mainbody species.mainbody ) #uw8( largest.mainbody of.mainbody ) #uw8( largest.mainbody eel.mainbody ) #uw8( species.mainbody of.mainbody ) #uw8( species.mainbody eel.mainbody ) #uw8( of.mainbody eel.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0086</number>
+    <text>#weight( 0.2 #combine( low.(title) monocytes.(title) ) 0.05 #combine( low.(inlink) monocytes.(inlink) ) 0.75 #combine( low.(mainbody) monocytes.(mainbody) ) 0.1 #combine( #1( low.mainbody monocytes.mainbody ) ) 0.2 #combine( #uw8( low.mainbody monocytes.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0087</number>
+    <text>#weight( 0.2 #combine( manila.(title) ) 0.05 #combine( manila.(inlink) ) 0.75 #combine( manila.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0088</number>
+    <text>#weight( 0.2 #combine( mexico.(title) climate.(title) ) 0.05 #combine( mexico.(inlink) climate.(inlink) ) 0.75 #combine( mexico.(mainbody) climate.(mainbody) ) 0.1 #combine( #1( mexico.mainbody climate.mainbody ) ) 0.2 #combine( #uw8( mexico.mainbody climate.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0089</number>
+    <text>#weight( 0.2 #combine( mineral.(title) element.(title) ) 0.05 #combine( mineral.(inlink) element.(inlink) ) 0.75 #combine( mineral.(mainbody) element.(mainbody) ) 0.1 #combine( #1( mineral.mainbody element.mainbody ) ) 0.2 #combine( #uw8( mineral.mainbody element.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0090</number>
+    <text>#weight( 0.2 #combine( native.(title) american.(title) mexican.(title) ) 0.05 #combine( native.(inlink) american.(inlink) mexican.(inlink) ) 0.75 #combine( native.(mainbody) american.(mainbody) mexican.(mainbody) ) 0.1 #combine( #1( native.mainbody american.mainbody ) #1( american.mainbody mexican.mainbody ) ) 0.2 #combine( #uw8( native.mainbody american.mainbody ) #uw8( native.mainbody mexican.mainbody ) #uw8( american.mainbody mexican.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0091</number>
+    <text>#weight( 0.2 #combine( openwrt.(title) ) 0.05 #combine( openwrt.(inlink) ) 0.75 #combine( openwrt.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0092</number>
+    <text>#weight( 0.2 #combine( pandora.(title) ) 0.05 #combine( pandora.(inlink) ) 0.75 #combine( pandora.(mainbody) )  )</text>
+  </query>
+  <query>
+    <number>0093</number>
+    <text>#weight( 0.2 #combine( protecting.(title) embankment.(title) ) 0.05 #combine( protecting.(inlink) embankment.(inlink) ) 0.75 #combine( protecting.(mainbody) embankment.(mainbody) ) 0.1 #combine( #1( protecting.mainbody embankment.mainbody ) ) 0.2 #combine( #uw8( protecting.mainbody embankment.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0094</number>
+    <text>#weight( 0.2 #combine( samosa.(title) recipes.(title) ) 0.05 #combine( samosa.(inlink) recipes.(inlink) ) 0.75 #combine( samosa.(mainbody) recipes.(mainbody) ) 0.1 #combine( #1( samosa.mainbody recipes.mainbody ) ) 0.2 #combine( #uw8( samosa.mainbody recipes.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0095</number>
+    <text>#weight( 0.2 #combine( soda.(title) water.(title) ) 0.05 #combine( soda.(inlink) water.(inlink) ) 0.75 #combine( soda.(mainbody) water.(mainbody) ) 0.1 #combine( #1( soda.mainbody water.mainbody ) ) 0.2 #combine( #uw8( soda.mainbody water.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0096</number>
+    <text>#weight( 0.2 #combine( star.(title) wars.(title) movies.(title) ) 0.05 #combine( star.(inlink) wars.(inlink) movies.(inlink) ) 0.75 #combine( star.(mainbody) wars.(mainbody) movies.(mainbody) ) 0.1 #combine( #1( star.mainbody wars.mainbody ) #1( wars.mainbody movies.mainbody ) ) 0.2 #combine( #uw8( star.mainbody wars.mainbody ) #uw8( star.mainbody movies.mainbody ) #uw8( wars.mainbody movies.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0097</number>
+    <text>#weight( 0.2 #combine( stomach.(title) disorder.(title) ) 0.05 #combine( stomach.(inlink) disorder.(inlink) ) 0.75 #combine( stomach.(mainbody) disorder.(mainbody) ) 0.1 #combine( #1( stomach.mainbody disorder.mainbody ) ) 0.2 #combine( #uw8( stomach.mainbody disorder.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0098</number>
+    <text>#weight( 0.2 #combine( tiffany.(title) keys.(title) ) 0.05 #combine( tiffany.(inlink) keys.(inlink) ) 0.75 #combine( tiffany.(mainbody) keys.(mainbody) ) 0.1 #combine( #1( tiffany.mainbody keys.mainbody ) ) 0.2 #combine( #uw8( tiffany.mainbody keys.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0099</number>
+    <text>#weight( 0.2 #combine( vegetable.(title) fermentation.(title) ) 0.05 #combine( vegetable.(inlink) fermentation.(inlink) ) 0.75 #combine( vegetable.(mainbody) fermentation.(mainbody) ) 0.1 #combine( #1( vegetable.mainbody fermentation.mainbody ) ) 0.2 #combine( #uw8( vegetable.mainbody fermentation.mainbody ) )  )</text>
+  </query>
+  <query>
+    <number>0100</number>
+    <text>#weight( 0.2 #combine( weight.(title) loss.(title) ) 0.05 #combine( weight.(inlink) loss.(inlink) ) 0.75 #combine( weight.(mainbody) loss.(mainbody) ) 0.1 #combine( #1( weight.mainbody loss.mainbody ) ) 0.2 #combine( #uw8( weight.mainbody loss.mainbody ) )  )</text>
+  </query>
+</parameters>
