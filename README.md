@@ -2,7 +2,7 @@
 
 Reproducibility scripts for the WWW English subtask at [NTCIR-13][1].
 
-    @inproceedings{www17-overview,
+    @inproceedings{gmb+17ntcir,
       author = {L. Gallagher and J. Mackenzie and R. Benham and R.~-C. Chen and F. Scholer and J. S. Culpepper},
       title = {RMIT at the {NTCIR-13 We Want Web Task}},
       booktitle = {Proc. NTCIR-13},
