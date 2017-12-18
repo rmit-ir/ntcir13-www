@@ -20,7 +20,7 @@ $1 -index=$INDEX $INDRI_ARGS -fbDocs=10 -fbTerms=50 -fbOrigWeight=0.6 \
     "$PPATH/sdmf.param" > "$PPATH/sdmf-qe.run"
 # Spam was not filtered for this run
 $SPATH/monotonic.sh "$PPATH/sdmf-qe.run"
-cp "$PPATH/sdmf-qe.run" "$PPATH/RMIT-R1.run"
+mv "$SPATH/pruned.run" "$PPATH/RMIT-R1.run"
 
 # RMIT-2 (RMIT-1, PageRank)
 $SPATH/pagerank.awk $SPATH/pagerank.prior $PPATH/sdmf-qe.run > $PPATH/sdmf-qe-pr.run
