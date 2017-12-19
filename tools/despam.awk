@@ -2,6 +2,7 @@
 
 NR == FNR {
     whitelist[$1] = 1
+    next
 }
 
 {

@@ -1,25 +1,38 @@
 #!/bin/bash
 
 SPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-QRELS=$SPATH/../results/wwwE.trec.qrels
+QRELS=$SPATH/../results/wwwE.qrels
+EVALD=$SPATH/../results/reproduce/eval
 
-gdeval.pl -k 20 -j 4 $QRELS $1 | tail -1 > /tmp/qq.20
-gdeval.pl -k 10 -j 4 $QRELS $1 | tail -1 > /tmp/qq.10
-gdeval.pl -k 5 -j 4 $QRELS $1 | tail -1 > /tmp/qq.5
-# trec_eval -m all_trec $QRELS $1 | grep -e "^map_cut.1000 " -e "^P_5 " -e "^P_10 " -e "^P_20 " > /tmp/qq.tev
-# cat /tmp/qq.tev
-echo -n "ERR_5                   all     " 
-awk -F, '{printf "%.4f\n", $4}' /tmp/qq.5 
-echo -n "ERR_10                  all     " 
-awk -F, '{printf "%.4f\n", $4}' /tmp/qq.10 
-echo -n "ERR_20                  all     " 
-awk -F, '{printf "%.4f\n", $4}' /tmp/qq.20 
-echo -n "NDCG_5                  all     "
-awk -F, '{printf "%.4f\n", $3}' /tmp/qq.5 
-echo -n "NDCG_10                 all     " 
-awk -F, '{printf "%.4f\n", $3}' /tmp/qq.10 
-echo -n "NDCG_20                 all     " 
-awk -F, '{printf "%.4f\n", $3}' /tmp/qq.20 
-rbp_eval -d 100 -WH -p 0.8,0.9,0.95 $QRELS $1 | awk '{print "rbp_" $2, "               all    ", $8 $9}'
+mkdir -p $EVALD
+cd $EVALD
 
-rm -f /tmp/qq.*
+cp $EVALD/../RMIT-R?.run .
+cp $QRELS .
+awk '{print $1}' RMIT-R1.run | sort -u > tid
+NTCIRsplitqrels wwwE.qrels rel
+
+awk '{f=$1 "/" $1 "." FILENAME ".res"; print $3>f}' RMIT-R1.run
+awk '{f=$1 "/" $1 "." FILENAME ".res"; print $3>f}' RMIT-R2.run
+awk '{f=$1 "/" $1 "." FILENAME ".res"; print $3>f}' RMIT-R3.run
+awk '{f=$1 "/" $1 "." FILENAME ".res"; print $3>f}' RMIT-R4.run
+
+echo RMIT-R1.run | NTCIR-eval tid rel test -cutoffs 10 -g 1:2:3:4
+echo RMIT-R2.run | NTCIR-eval tid rel test -cutoffs 10 -g 1:2:3:4
+echo RMIT-R3.run | NTCIR-eval tid rel test -cutoffs 10 -g 1:2:3:4
+echo RMIT-R4.run | NTCIR-eval tid rel test -cutoffs 10 -g 1:2:3:4
+
+echo "RMIT-R1.run
+RMIT-R2.run
+RMIT-R3.run
+RMIT-R4.run" > rmit_list
+# Official evaluation results
+NEV2mean rmit_list tid test.nev Q@0010 MSnDCG@0010 nERR@0010
+
+# Additional evaluation metrics (RBP, gdeval.pl)
+OUT=rmit_list_eval_extra.txt
+>$OUT
+$SPATH/wwwE_eval_extra.sh RMIT-R1.run | awk '{print "RMIT-R1", $0}' >> $OUT
+$SPATH/wwwE_eval_extra.sh RMIT-R2.run | awk '{print "RMIT-R2", $0}' >> $OUT
+$SPATH/wwwE_eval_extra.sh RMIT-R3.run | awk '{print "RMIT-R3", $0}' >> $OUT
+$SPATH/wwwE_eval_extra.sh RMIT-R4.run | awk '{print "RMIT-R4", $0}' >> $OUT
