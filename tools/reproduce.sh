@@ -3,6 +3,15 @@
 SPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PPATH="$SPATH/../results/reproduce"
 
+if [ ! -f "$SPATH/local.sh" ]; then
+    echo "Config required. Create the file tools/local.sh and set the variable"
+    echo "\`INDEX\` to the path of your ClueWeb12B Indri index. For example:"
+    echo ""
+    echo "echo \"INDEX='indri-indexes/ClueWeb12B'\" > $SPATH/local.sh"
+    echo ""
+    exit 1
+fi
+
 if [ $# -ne 1 ]; then
 	echo "usage: $0 <indri-bin>"
 	exit 1
@@ -10,7 +19,7 @@ fi
 
 xz -dk $SPATH/spam.white.70.xz $SPATH/pagerank.prior.xz
 
-INDEX="/research/remote/petabyte/users/indri-indexes/ClueWeb12B/CW12B"
+source $SPATH/local.sh
 INDRI_ARGS="-threads=48 -stemmer.name=krovetz -count=10000 -trecFormat=1"
 
 # RMIT-1 SDM Fields

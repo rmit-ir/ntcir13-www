@@ -1,3 +1,4 @@
+tools/local.sh
 tools/pagerank.prior
 tools/spam.white.70
 results/reproduce/eval
